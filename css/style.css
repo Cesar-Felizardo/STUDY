@@ -39,7 +39,7 @@ a {
     font-size: 20px;
     color: #ffffff;
     background: #9c0b0b;
-    padding: 20px 120px;
+    padding: 20px 110px;
     letter-spacing: 3px;
     border-radius: 4px;
     box-shadow: 2px 2px 2px #0000004b;
@@ -50,10 +50,19 @@ a:hover {
     background: #dd0a0a;
 }
 
+/* MEDIA QUERY 520PX */
+
+@media screen  and (max-width: 520px) {
+
+    a {
+        padding: 20px 80px;
+    }
+}
+
 
 /* MEDIA QUERY 450PX */
 
-@media screen  and (max-width: 450px) {
+@media screen  and (max-width: 460px) {
 
     h1 {
         font-size: 30px;
@@ -67,18 +76,18 @@ a:hover {
         align-items: center;
         flex-direction: column;
     }
-}
-
-
-/* MEDIA QUERY 450PX */
-
-main {
-    padding-top: -50px;
-}
-
-@media screen  and (max-width: 450px) {
 
     a {
-        padding: 15px 100px;
+        padding: 20px 50px;
     }
 }
+
+/* MEDIA QUERY 520PX */
+
+@media screen  and (max-width: 399px) {
+
+    a {
+        padding: 15px 20px;
+    }
+}
+
