@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background-color: rgb(145, 222, 153);
+}
+
 header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
@@ -22,12 +26,12 @@ main {
     align-items: center;
     flex-direction: column;
     background-color: rgb(145, 222, 222);
-    padding: 35px 10px;
-    height: 79vh;
+    padding: 30px 10px;
+    height: 88vh;
 }
 
 .studing {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     padding-top: 50px;
 }
 
