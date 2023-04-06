@@ -22,17 +22,16 @@ header {
 main {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-direction: column;
     background-color: rgb(145, 222, 222);
-    padding: 30px 10px;
-    height: 88vh;
+    height: 100vh;
 }
 
 .studing {
     margin-bottom: 30px;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 a {
@@ -40,7 +39,7 @@ a {
     font-size: 20px;
     color: #ffffff;
     background: #c32a2a;
-    padding: 15px 140px;
+    padding: 20px 140px;
     letter-spacing: 3px;
     border-radius: 4px;
 }
